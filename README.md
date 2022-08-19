@@ -1,4 +1,8 @@
 # `com.tomuvak.optional-type` – a multi-platform Kotlin library for the Optional type (the type itself, nothing more)
+[![Licence][1]][2]
+[![Latest release version][3]][4]
+[![Build and tests status][5]][6]
+
 This library is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License);
 see [LICENSE.txt](LICENSE.txt).
 
@@ -189,5 +193,11 @@ out the sister library [`com.tomuvak.optional`].
 The library [`com.tomuvak.optional-test`] provides some utilities designed to facilitate testing code which uses the
 `Optional` type, specifically assertions over values of the `Optional` type.
 
+[1]: https://img.shields.io/github/license/tomuvak/optional-type?label=Licence
+[2]: LICENSE.txt
+[3]: https://img.shields.io/github/v/tag/tomuvak/optional-type?label=Latest%20release
+[4]: https://github.com/tomuvak/optional-type/tags
+[5]: https://github.com/tomuvak/optional-type/actions/workflows/check-on-push.yaml/badge.svg
+[6]: https://github.com/tomuvak/optional-type/actions/workflows/check-on-push.yaml
 [`com.tomuvak.optional`]: https://github.com/tomuvak/optional
 [`com.tomuvak.optional-test`]: https://github.com/tomuvak/optional-test
