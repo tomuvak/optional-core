@@ -117,16 +117,16 @@ inside the `sourceSet { ... }` block, e.g.
 ```kotlin
         val commonMain by getting {
             dependencies {
-                implementation("com.tomuvak.optional-type:optional-type:0.0.1")
+                implementation("com.tomuvak.optional-type:optional-type:<version>")
             }
         }
 ```
 
-to add it for all platforms in a multi-platform project.
+([![Latest release version][3_]][4]) to add it for all platforms in a multi-platform project.
 
 For any actual work with the `Optional` type on top of its mere definition, consider adding an additional dependency on
 the sister library [`com.tomuvak.optional`], e.g. `implementation("com.tomuvak.optional:optional:<version>")`
-(`<version>` at the time of writing this is `0.0.4`).
+([![Latest release version of com.tomuvak.optional][7]][8]).
 
 And for testing utilities for the `Optional` type consider adding a dependency (supposedly for test source sets) on
 [`com.tomuvak.optional-test`].
@@ -196,8 +196,11 @@ The library [`com.tomuvak.optional-test`] provides some utilities designed to fa
 [1]: https://img.shields.io/github/license/tomuvak/optional-type?label=Licence
 [2]: LICENSE.txt
 [3]: https://img.shields.io/github/v/tag/tomuvak/optional-type?label=Latest%20release
+[3_]: https://img.shields.io/github/v/tag/tomuvak/optional-type?label=Latest%20release%20version%20%28ignoring%20the%20initial%20%27v%27%29%3A&style=plastic
 [4]: https://github.com/tomuvak/optional-type/tags
 [5]: https://github.com/tomuvak/optional-type/actions/workflows/check-on-push.yaml/badge.svg
 [6]: https://github.com/tomuvak/optional-type/actions/workflows/check-on-push.yaml
+[7]: https://img.shields.io/github/v/tag/tomuvak/optional?label=Latest%20release%20version%20%28ignoring%20the%20initial%20%27v%27%29%3A&style=plastic
+[8]: https://github.com/tomuvak/optional/tags
 [`com.tomuvak.optional`]: https://github.com/tomuvak/optional
 [`com.tomuvak.optional-test`]: https://github.com/tomuvak/optional-test
